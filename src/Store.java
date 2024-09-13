@@ -1,12 +1,21 @@
 public class Store {
     public static void main(String[] args) {
-        int p1 = 15;
-        int p2 = 10;
-        int p3 = 5;
+        final int RICE = 15;
+        final int COFFEE = 10;
+        final int MEAT = 5; //Se esta cambiando los numeros magicos, por constantes
 
-        int total1 = p1 * 2;
-        int total2 = p2 * 3;
-        int total3 = p3 * 4;
+        final int AMOUNT_RICE= 2;
+        final int AMOUNT_COFFEE= 3;
+        final int AMOUNT_MEAT= 4; //se esta cambiando los numero magicos, por constantes
+        final int SALES = 50;
+
+        int [][] total = new int[3][3];
+        for (int i=0; i < 4; i++){
+            for (int j=0; j < 4; j++){
+                System.out.println("El producto " + (i+1) + );
+            }
+        }
+
 
         int totalSales = total1 + total2 + total3;
 
